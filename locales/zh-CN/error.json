@@ -110,7 +110,7 @@
   "unlock": {
     "addProxyUrl": "添加代理地址（设置为获取 Key 的网站）",
     "apiKey": {
-      "description": "输入你的 {{name}} API Key 即可开始会话，<a href="https://newapi.tx88.eu.org" style="font-weight: normal; text-decoration: none; " class="text-blue-600 hover:underline" rel="noopener">点击免费获取</a>",
+      "description": "输入你的 {{name}} API Key 即可开始会话，<a href=\"https://newapi.tx88.eu.org\" style=\"font-weight: normal; text-decoration: none; \" class=\"text-blue-600 hover:underline\" rel=\"noopener\">点击免费获取</a>",
       "title": "使用自定义 {{name}} API Key"
     },
     "closeMessage": "关闭提示",
