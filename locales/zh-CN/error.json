@@ -108,9 +108,9 @@
     "responseError": "服务请求失败，请检查配置或重试"
   },
   "unlock": {
-    "addProxyUrl": "点此添加代理地址（设置为获取 Key 的网站）",
+    "addProxyUrl": "点此设置代理地址（你获取 Key 的网站）",
     "apiKey": {
-      "description": "输入你的 {{name}} API Key 即可开始会话，<a href='https://newapi.tx88.eu.org'>点击免费获取</a>",
+      "description": "输入你的 {{name}} API Key 即可开始会话。免费获取API Key：https://newapi.tx88.eu.org",
       "title": "使用自定义 {{name}} API Key"
     },
     "closeMessage": "关闭提示",
