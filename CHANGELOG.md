@@ -2,6 +2,81 @@
 
 # Changelog
 
+### [Version 1.84.9](https://github.com/lobehub/lobe-chat/compare/v1.84.8...v1.84.9)
+
+<sup>Released on **2025-04-30**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Embeddings Format Issue with OpenAI API when using Ollama.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Embeddings Format Issue with OpenAI API when using Ollama, closes [#7641](https://github.com/lobehub/lobe-chat/issues/7641) ([649fd82](https://github.com/lobehub/lobe-chat/commit/649fd82))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.84.8](https://github.com/lobehub/lobe-chat/compare/v1.84.7...v1.84.8)
+
+<sup>Released on **2025-04-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix stdio mcp server env issue.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix stdio mcp server env issue, closes [#7648](https://github.com/lobehub/lobe-chat/issues/7648) ([bad222a](https://github.com/lobehub/lobe-chat/commit/bad222a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.84.7](https://github.com/lobehub/lobe-chat/compare/v1.84.6...v1.84.7)
+
+<sup>Released on **2025-04-29**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix custom provider and knowledge base crash.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix custom provider and knowledge base crash, closes [#7645](https://github.com/lobehub/lobe-chat/issues/7645) ([2cbc179](https://github.com/lobehub/lobe-chat/commit/2cbc179))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.84.6](https://github.com/lobehub/lobe-chat/compare/v1.84.5...v1.84.6)
 
 <sup>Released on **2025-04-29**</sup>
