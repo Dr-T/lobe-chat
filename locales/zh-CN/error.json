@@ -128,9 +128,9 @@
     "responseError": "服务请求失败，请检查配置或重试"
   },
   "unlock": {
-    "addProxyUrl": "添加 OpenAI 代理地址（可选）",
+    "addProxyUrl": "点此设置代理地址（你获取 Key 的网站）",
     "apiKey": {
-      "description": "输入你的 {{name}} API Key 即可开始会话",
+      "description": "输入你的 {{name}} API Key 即可开始会话。免费获取API Key：https://newapi.tx88.eu.org",
       "imageGenerationDescription": "输入你的 {{name}} API Key 即可开始生成",
       "title": "使用自定义 {{name}} API Key"
     },
