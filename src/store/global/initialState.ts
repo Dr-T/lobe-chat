@@ -47,6 +47,7 @@ export enum ProfileTabs {
 }
 
 export interface SystemStatus {
+  chatInputHeight?: number;
   expandInputActionbar?: boolean;
   // which sessionGroup should expand
   expandSessionGroupKeys: string[];
@@ -73,6 +74,7 @@ export interface SystemStatus {
   latestChangelogId?: string;
   mobileShowPortal?: boolean;
   mobileShowTopic?: boolean;
+  noWideScreen?: boolean;
   portalWidth: number;
   sessionsWidth: number;
   showChatSideBar?: boolean;
@@ -87,7 +89,6 @@ export interface SystemStatus {
    * theme mode
    */
   themeMode?: ThemeMode;
-  wideScreen?: boolean;
   zenMode?: boolean;
 }
 
@@ -115,6 +116,7 @@ export interface GlobalState {
 }
 
 export const INITIAL_STATUS = {
+  chatInputHeight: 64,
   expandInputActionbar: true,
   expandSessionGroupKeys: [SessionDefaultGroup.Pinned, SessionDefaultGroup.Default],
   filePanelWidth: 320,
@@ -124,6 +126,7 @@ export const INITIAL_STATUS = {
   imagePanelWidth: 320,
   imageTopicPanelWidth: 80,
   mobileShowTopic: false,
+  noWideScreen: true,
   portalWidth: 400,
   sessionsWidth: 320,
   showChatSideBar: true,
@@ -135,7 +138,6 @@ export const INITIAL_STATUS = {
   showSystemRole: false,
   systemRoleExpandedMap: {},
   themeMode: 'auto',
-  wideScreen: true,
   zenMode: false,
 } satisfies SystemStatus;
 
