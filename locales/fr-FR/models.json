@@ -680,6 +680,9 @@
   "anthropic/claude-sonnet-4": {
     "description": "Claude Sonnet 4 améliore significativement les capacités de Sonnet 3.7, excelle en codage avec un score de pointe de 72,7 % sur SWE-bench. Ce modèle équilibre performance et efficacité, adapté aux cas d'usage internes et externes, avec un contrôle accru grâce à une meilleure contrôlabilité."
   },
+  "anthropic/claude-sonnet-4.5": {
+    "description": "Claude Sonnet 4.5 est le modèle le plus intelligent d'Anthropic à ce jour."
+  },
   "ascend-tribe/pangu-pro-moe": {
     "description": "Pangu-Pro-MoE 72B-A16B est un grand modèle de langage sparse à 72 milliards de paramètres, avec 16 milliards de paramètres activés. Il repose sur une architecture Mixture of Experts groupée (MoGE), qui regroupe les experts lors de la sélection et contraint chaque token à activer un nombre égal d'experts dans chaque groupe, assurant ainsi un équilibre de charge entre les experts et améliorant considérablement l'efficacité de déploiement sur la plateforme Ascend."
   },
@@ -772,6 +775,9 @@
   },
   "claude-sonnet-4-20250514-thinking": {
     "description": "Le modèle de réflexion Claude Sonnet 4 produit des réponses quasi instantanées ou des raisonnements prolongés étape par étape, clairement visibles par l'utilisateur."
+  },
+  "claude-sonnet-4-5-20250929": {
+    "description": "Claude Sonnet 4.5 est le modèle le plus intelligent d'Anthropic à ce jour."
   },
   "codegeex-4": {
     "description": "CodeGeeX-4 est un puissant assistant de programmation AI, prenant en charge des questions intelligentes et l'achèvement de code dans divers langages de programmation, améliorant l'efficacité du développement."
@@ -1915,6 +1921,9 @@
   },
   "kimi-k2-turbo-preview": {
     "description": "kimi-k2 est un modèle de base à architecture MoE doté de capacités remarquables en programmation et en agents autonomes, avec 1T de paramètres au total et 32B de paramètres activés. Dans les principaux tests de référence couvrant le raisonnement général, la programmation, les mathématiques et les agents, le modèle K2 surpasse les autres modèles open source majeurs."
+  },
+  "kimi-k2:1t": {
+    "description": "Kimi K2 est un modèle de langage à experts mixtes à grande échelle (MoE) développé par l'IA de la face cachée de la Lune, avec un total de 1 000 milliards de paramètres et 32 milliards de paramètres activés par passage avant. Il est optimisé pour les capacités d'agent, incluant l'utilisation avancée d'outils, le raisonnement et la synthèse de code."
   },
   "kimi-latest": {
     "description": "Le produit d'assistant intelligent Kimi utilise le dernier modèle Kimi, qui peut inclure des fonctionnalités encore instables. Il prend en charge la compréhension des images et choisit automatiquement le modèle de facturation 8k/32k/128k en fonction de la longueur du contexte de la demande."

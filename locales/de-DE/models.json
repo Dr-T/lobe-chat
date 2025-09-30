@@ -680,6 +680,9 @@
   "anthropic/claude-sonnet-4": {
     "description": "Claude Sonnet 4 baut auf den branchenführenden Fähigkeiten von Sonnet 3.7 auf und zeigt herausragende Codierungsleistung mit einem Spitzenwert von 72,7 % bei SWE-bench. Das Modell bietet eine ausgewogene Kombination aus Leistung und Effizienz, geeignet für interne und externe Anwendungsfälle, und ermöglicht durch verbesserte Steuerbarkeit eine größere Kontrolle über die Ergebnisse."
   },
+  "anthropic/claude-sonnet-4.5": {
+    "description": "Claude Sonnet 4.5 ist das bisher intelligenteste Modell von Anthropic."
+  },
   "ascend-tribe/pangu-pro-moe": {
     "description": "Pangu-Pro-MoE 72B-A16B ist ein spärlich besetztes großes Sprachmodell mit 72 Milliarden Parametern und 16 Milliarden aktivierten Parametern. Es basiert auf der gruppierten Mixture-of-Experts-Architektur (MoGE), bei der Experten in Gruppen eingeteilt werden und Tokens innerhalb jeder Gruppe eine gleiche Anzahl von Experten aktivieren, um eine ausgewogene Expertenauslastung zu gewährleisten. Dies verbessert die Effizienz der Modellausführung auf der Ascend-Plattform erheblich."
   },
@@ -772,6 +775,9 @@
   },
   "claude-sonnet-4-20250514-thinking": {
     "description": "Claude Sonnet 4 Denkmodell kann nahezu sofortige Antworten oder verlängerte schrittweise Überlegungen erzeugen, die für den Nutzer klar nachvollziehbar sind."
+  },
+  "claude-sonnet-4-5-20250929": {
+    "description": "Claude Sonnet 4.5 ist das bisher intelligenteste Modell von Anthropic."
   },
   "codegeex-4": {
     "description": "CodeGeeX-4 ist ein leistungsstarker AI-Programmierassistent, der intelligente Fragen und Codevervollständigung in verschiedenen Programmiersprachen unterstützt und die Entwicklungseffizienz steigert."
@@ -1915,6 +1921,9 @@
   },
   "kimi-k2-turbo-preview": {
     "description": "kimi-k2 ist ein Basis-Modell mit MoE-Architektur und besonders starken Fähigkeiten im Bereich Code und Agenten. Es verfügt über insgesamt 1T Parameter und 32B aktivierte Parameter. In Benchmark-Tests der wichtigsten Kategorien – allgemeines Wissens-Reasoning, Programmierung, Mathematik und Agenten – übertrifft das K2-Modell die Leistung anderer gängiger Open‑Source‑Modelle."
+  },
+  "kimi-k2:1t": {
+    "description": "Kimi K2 ist ein von Moon's Dark Side AI entwickeltes großes gemischtes Expertenmodell (MoE) mit insgesamt 1 Billion Parametern und 32 Milliarden aktivierten Parametern pro Vorwärtsdurchlauf. Es ist auf Agentenfähigkeiten optimiert, einschließlich fortgeschrittener Werkzeugnutzung, Schlussfolgerungen und Code-Synthese."
   },
   "kimi-latest": {
     "description": "Das Kimi intelligente Assistenzprodukt verwendet das neueste Kimi Großmodell, das möglicherweise noch instabile Funktionen enthält. Es unterstützt die Bildverarbeitung und wählt automatisch das Abrechnungsmodell 8k/32k/128k basierend auf der Länge des angeforderten Kontexts aus."

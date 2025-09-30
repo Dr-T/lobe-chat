@@ -680,6 +680,9 @@
   "anthropic/claude-sonnet-4": {
     "description": "Claude Sonnet 4, Sonnet 3.7'nin sektör lideri yetenekleri üzerine önemli geliştirmeler yapmış olup, kodlama alanında mükemmel performans sergiler ve SWE-bench'te en ileri %72.7 skoruna ulaşır. Model, performans ve verimlilik arasında denge sağlar, hem dahili hem de harici kullanım durumları için uygundur ve geliştirilmiş kontrol edilebilirlik ile uygulama üzerinde daha fazla hakimiyet sunar."
   },
+  "anthropic/claude-sonnet-4.5": {
+    "description": "Claude Sonnet 4.5, Anthropic'in şimdiye kadarki en akıllı modelidir."
+  },
   "ascend-tribe/pangu-pro-moe": {
     "description": "Pangu-Pro-MoE 72B-A16B, 72 milyar parametreli ve 16 milyar parametre aktive eden seyrek büyük bir dil modelidir. Bu model, grup tabanlı uzman karışımı (MoGE) mimarisine dayanır; uzman seçim aşamasında uzmanları gruplar halinde düzenler ve her grupta token başına eşit sayıda uzmanı aktive ederek uzman yük dengesini sağlar. Bu sayede Ascend platformunda modelin dağıtım verimliliği önemli ölçüde artırılmıştır."
   },
@@ -772,6 +775,9 @@
   },
   "claude-sonnet-4-20250514-thinking": {
     "description": "Claude Sonnet 4 düşünme modeli, neredeyse anında yanıtlar veya uzatılmış adım adım düşünme süreçleri üretebilir; kullanıcılar bu süreçleri net bir şekilde görebilir."
+  },
+  "claude-sonnet-4-5-20250929": {
+    "description": "Claude Sonnet 4.5, Anthropic'in şimdiye kadarki en akıllı modelidir."
   },
   "codegeex-4": {
     "description": "CodeGeeX-4, çeşitli programlama dillerinde akıllı soru-cevap ve kod tamamlama desteği sunan güçlü bir AI programlama asistanıdır, geliştirme verimliliğini artırır."
@@ -1915,6 +1921,9 @@
   },
   "kimi-k2-turbo-preview": {
     "description": "kimi-k2, son derece güçlü kod yazma ve Agent yeteneklerine sahip MoE mimarisine dayanan bir temel modeldir; toplam parametre sayısı 1T, aktif (etkin) parametre sayısı 32B. Genel bilgi çıkarımı, programlama, matematik ve Agent gibi ana kategorilerde yapılan karşılaştırmalı performans testlerinde K2 modelinin performansı diğer önde gelen açık kaynak modellerinin üzerindedir."
+  },
+  "kimi-k2:1t": {
+    "description": "Kimi K2, Ay'ın Karanlık Yüzü AI tarafından geliştirilen, toplamda 1 trilyon parametreye ve her ileri geçişte 32 milyar aktif parametreye sahip büyük ölçekli bir Karışık Uzman (MoE) dil modelidir. Gelişmiş araç kullanımı, muhakeme ve kod sentezi dahil olmak üzere ajan yetenekleri için optimize edilmiştir."
   },
   "kimi-latest": {
     "description": "Kimi akıllı asistan ürünü, en son Kimi büyük modelini kullanır ve henüz kararlı olmayan özellikler içerebilir. Görüntü anlayışını desteklerken, isteğin bağlam uzunluğuna göre 8k/32k/128k modelini faturalama modeli olarak otomatik olarak seçecektir."
