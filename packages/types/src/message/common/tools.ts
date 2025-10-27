@@ -2,7 +2,7 @@ import { IPluginErrorType } from '@lobehub/chat-plugin-sdk';
 import type { PartialDeep } from 'type-fest';
 import { z } from 'zod';
 
-import { LobeToolRenderType } from '../tool';
+import { LobeToolRenderType } from '../../tool';
 
 export interface ChatPluginPayload {
   apiName: string;
@@ -17,6 +17,23 @@ export interface ChatToolPayload {
   id: string;
   identifier: string;
   type: LobeToolRenderType;
+}
+
+/**
+ * Tool execution result from tool messages
+ */
+export interface ChatToolResult {
+  content: string | null;
+  error?: any;
+  id: string;
+  state?: any;
+}
+
+/**
+ * Chat tool payload with merged execution result
+ */
+export interface ChatToolPayloadWithResult extends ChatToolPayload {
+  result?: ChatToolResult;
 }
 
 export interface ToolsCallingContext {

@@ -2,6 +2,108 @@
 
 # Changelog
 
+### [Version 1.142.4](https://github.com/lobehub/lobe-chat/compare/v1.142.3...v1.142.4)
+
+<sup>Released on **2025-10-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Pre render ModelSwitchPanel, The error details of the connectivity check lead to a layout problem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Pre render ModelSwitchPanel, closes [#9499](https://github.com/lobehub/lobe-chat/issues/9499) ([840382b](https://github.com/lobehub/lobe-chat/commit/840382b))
+- **misc**: The error details of the connectivity check lead to a layout problem, closes [#9872](https://github.com/lobehub/lobe-chat/issues/9872) ([ea42e60](https://github.com/lobehub/lobe-chat/commit/ea42e60))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.3](https://github.com/lobehub/lobe-chat/compare/v1.142.2...v1.142.3)
+
+<sup>Released on **2025-10-27**</sup>
+
+#### 💄 Styles
+
+- **misc**: Adjust modal setting form styles for improved layout and responsiveness, Unzip file when uploading in knowledge base \[LOB-500].
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Adjust modal setting form styles for improved layout and responsiveness, closes [#9890](https://github.com/lobehub/lobe-chat/issues/9890) ([1997ec5](https://github.com/lobehub/lobe-chat/commit/1997ec5))
+- **misc**: Unzip file when uploading in knowledge base \[LOB-500], closes [#9854](https://github.com/lobehub/lobe-chat/issues/9854) ([e568ce6](https://github.com/lobehub/lobe-chat/commit/e568ce6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.2](https://github.com/lobehub/lobe-chat/compare/v1.142.1...v1.142.2)
+
+<sup>Released on **2025-10-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve provider modal height when creating custom provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve provider modal height when creating custom provider, closes [#9870](https://github.com/lobehub/lobe-chat/issues/9870) ([55d92c0](https://github.com/lobehub/lobe-chat/commit/55d92c0))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.142.1](https://github.com/lobehub/lobe-chat/compare/v1.142.0...v1.142.1)
+
+<sup>Released on **2025-10-26**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update i18n.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update i18n, closes [#9862](https://github.com/lobehub/lobe-chat/issues/9862) ([8d3bc91](https://github.com/lobehub/lobe-chat/commit/8d3bc91))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.142.0](https://github.com/lobehub/lobe-chat/compare/v1.141.10...v1.142.0)
 
 <sup>Released on **2025-10-24**</sup>
